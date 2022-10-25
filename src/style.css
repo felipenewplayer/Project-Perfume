@@ -1,0 +1,129 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(30, 38%, 92%);
+    height: 100vh;
+    width: 100%;
+}
+
+main{
+    height: 450px;
+    width: 600px;
+    
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 12px;
+
+}
+
+main .frasco{
+    
+    width: 300px;
+    height: 450px;
+    border-radius: 12px 0 0 12px;
+    
+}
+
+main .descricao{
+    padding: 2rem;
+    
+}
+
+main .titulo{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    
+    margin-bottom: 1.4rem;
+    
+}
+
+main h1{
+    font-family: 'Fraunces', serif;
+    line-height: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.4rem;
+    color: hsl(212, 21%, 14%);
+
+}
+
+main span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.46rem;
+    color:hsl(228, 12%, 48%);
+    font-weight: 500;
+    
+    
+}
+
+main .price{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 1rem;
+    margin-bottom: 1.7rem;
+    
+    
+
+}
+main div.promocao{
+    display: flex;
+    align-items: center;
+}
+main div.promocao .agora{
+    font-family: 'Fraunces', serif;
+    color: hsl(158,36%,37%);
+    font-size:2rem;
+    margin-top: 0.5rem;
+    padding-right: 1.2rem;
+    
+
+}
+main div.promocao .antes{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: hsl(228, 12%, 48%);
+    margin-top: 6px;
+
+}
+
+main button a:hover{
+    background-color: rgb(7, 36, 25);;
+}
+main button{
+    width: 100%;
+    border: none;
+    transition: 0.3s;
+}
+
+main button  a{
+    background-color: hsl(158,36%,37%);
+    border:none;
+    padding: 15.05px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 9px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+    
+main button  p{
+    padding-left: 10px;
+    
+}
+
+main button a img{
+    padding-right: 1px;
+}
+
