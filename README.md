@@ -1,3 +1,3 @@
 # Project-Perfume
-
-Desafio proposto no site https://www.frontendmentor.io/?ref=challenge
+## Linguagens usadas HTML e CSS
+Desafio proposto no site https://www.frontendmentor.io/?ref=challenge, 
